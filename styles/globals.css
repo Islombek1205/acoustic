@@ -1,21 +1,130 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body{
+  width: 100%;
+  background-color: #dbdad3;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+button{
+  cursor: pointer;
+}
+
+.navContainer{
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0 10%;
+}
+
+.navContainer .nav-top{
+  width: 100%;
+  height: 121px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer .search-form{
+  width: 342px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #873d00;
+  border-radius: 5px;
+  padding: 0 10px 0 15px;
+}
+
+.navContainer .search-form input{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #f07e22;
+  flex: 1;
+}
+
+.navContainer .search-form .search-btn{
+  height: 34px;
+  font-size: 22px;
+  color: #f07e22;
+  background-color: transparent;
+  border: none;
+}
+
+.navContainer .new-infoline{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navContainer .new-infoline .main-phone{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #616265;
+  gap: 10px;
+}
+
+.navContainer .new-infoline .phone-icon{
+  color: #f07e22;
+  font-size: 25px;
+}
+
+.navContainer .new-infoline .main-phone .main-operators{
+  font-size: 12px;
+  color: #f07e22;
+}
+
+.navContainer .new-infoline .chervon-down{
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #f07e22;
+}
+
+.navContainer .nav-bottom{
+  width: 100%;
+  height: 39px;
+}
+
+.navContainer .nav-bottom ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navContainer .nav-bottom ul li{
+  width: 172px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #873d00;
+  background-color: #f07e22;
+  font-size: 20px;
+}
+
+.navContainer .nav-bottom ul li:hover{
+  background-color: #873d00;
+}
+
+.navContainer .nav-bottom ul li .pages{
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navContainer .nav-bottom ul li:first-child{
+  border-top-left-radius: 10px;
+}
+
+.navContainer .nav-bottom ul li:last-child{
+  border-top-right-radius: 10px;
 }
