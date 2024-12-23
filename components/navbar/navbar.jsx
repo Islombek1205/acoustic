@@ -32,7 +32,7 @@ function Navbar() {
         <div className="nav-top">
             <img src="/logo-acoustic.png" alt="logo"/>
             <div className='search-form'>
-                <input type="text" />
+                <input type="text" placeholder="search"/>
                 <button type="submit" className="search-btn"><IoSearch className="search-icon"/></button>
             </div>
             <div className="new-infoline">

@@ -168,6 +168,10 @@ button{
 /* --------------------------------------------------------------------- */
 /* home-page */
 
+.home-container{
+  width: 100%;
+}
+
 .slider{
   width: 80%;
   height: 400px;
@@ -177,13 +181,13 @@ button{
 
 .for-content{
   width: 80%;
-  height: 409px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: 0 auto;
   padding: 16px;
   background-color: #f2f2ed;
+  gap: 30px;
 }
 
 .for-content h1{
@@ -192,38 +196,141 @@ button{
   border-bottom: 1px solid #946b4c38;
 }
 
-.for-content .grid-cards{
+.for-content .uslugi-cards{
   width: 100%;
-  display: flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 
-.for-content .grid-cards .card{
+.for-content .uslugi-cards .card{
   width: 274px;
   cursor: pointer;
 }
 
-.for-content .grid-cards .card img{
+.for-content .uslugi-cards .card img{
   width: 100%;
 }
 
-.for-content .grid-cards .card h2{
+.for-content .uslugi-cards .card h2{
   font-size: 19px;
+  font-weight: 400;
   color: #004fba;
 }
 
-.for-content .grid-cards .card:hover h2{
+.for-content .uslugi-cards .card:hover h2{
   color: #f78da7;
+  text-decoration: underline;
 }
 
-.for-content .grid-cards .card p{
+.for-content .uslugi-cards .card p{
   font-size: 16px;
   color: #444444;
 }
 
+.for-content-new{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #ffffff;
+  gap: 30px;
+}
 
+.for-content-new h1{
+  font-size: 25px;
+  color: #946b4c;
+  border-bottom: 1px solid #946b4c38;
+}
+
+.for-content-new .apparati-cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.for-content-new .apparati-cards .card{
+  width: 30%;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.for-content-new .apparati-cards img{
+  width: 113px;
+  height: 113px;
+}
+
+.for-content-new .apparati-cards .card h2{
+  font-size: 19px;
+  font-weight: 400;
+  color: #004fba;
+}
+
+.for-content-new .apparati-cards .card:hover h2{
+  color: #f78da7;
+  text-decoration: underline;
+}
+
+
+.for-content-new .apparati-cards .card p{
+  font-size: 16px;
+  color: #444444;
+  margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1116px){
+  .for-content .uslugi-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .for-content-new .apparati-cards .card h2{
+    font-size: 16px;
+  }
+
+  .for-content-new .apparati-cards .card p{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1023px){
+  .for-content-new .apparati-cards .card{
+    width: 45%;
+  }
+
+  /* .for-content-new .apparati-cards .card h2{
+    font-size: 19px;
+  }
+
+  .for-content-new .apparati-cards .card p{
+    font-size: 16px;
+  } */
+}
 
 @media (max-width: 1000px) {
   .nav-bottom{
@@ -261,5 +368,14 @@ button{
 
   .navContainer{
     padding: 0 5%;
+  }
+}
+
+@media (max-width: 650px){
+  .for-content-new .apparati-cards .card{
+    width: 90%;
+  }
+  .for-content-new .apparati-cards{
+    justify-content: center;
   }
 }
