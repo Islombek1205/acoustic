@@ -29,7 +29,6 @@ function Footer() {
           <li><a href="">Средства по уходу</a></li>
         </ul>
 
-        <div className="in-touch">
           <ul>
             <li>Мы на связи</li>
             <li><a href="https://t.me/acousticuz_bot"><FaTelegram /></a> <a href="mailto:info@acoustic.uz">info@acoustic.uz</a></li>
@@ -37,7 +36,6 @@ function Footer() {
             <li><a href="">Положение о системе видеонаблюдения</a></li>
           </ul>
 
-        </div>
       </div>
       <div className="footer-bottom">
         <ul>
