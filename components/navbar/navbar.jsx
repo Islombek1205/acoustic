@@ -4,7 +4,6 @@ import { FaBars } from "react-icons/fa";
 import Link from "next/link";
 import React, { useEffect, useState, useRef } from 'react'
 
-
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const menuRef = useRef(null);
@@ -38,7 +37,7 @@ function Navbar() {
             <div className="new-infoline">
                 <div className="main-phone">
                     <FaPhoneAlt className="phone-icon"/>
-                    <a href="#">+99871 202-14-41</a>
+                    <a href="tel:+998712021441">+99871 202-14-41</a>
                 </div>
             </div>
             <button className="bar-btn" onClick={toggleMenu}><FaBars /></button>
