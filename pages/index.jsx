@@ -9,158 +9,161 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'
 import FAQ from '@/components/FAQ';
+import { useLanguage } from '../components/languageContext';
 
 
 function Index() {
+      const { t } = useLanguage();
+    
   return (
     <div home-container>
         <div className="slider">
             
         </div>
         <div className="for-content">
-            <h1>Наши услуги</h1>
+            <h1>{t.OurServices}</h1>
             <div className="uslugi-cards">
                 <div className="card">
                     <img src="/diagnostika.png.webp" alt="diagnostika" />
-                    <h2>Диагностика слуха у взрослых</h2>
-                    <p>Все виды обследования слуха на новейшем оборудовании Interacoustics (Дания)</p>
+                    <h2>{t.HearingDiagnosticsInAdults}</h2>
+                    <p>{t.HearingDiagnosticsInAdultsText}</p>
                 </div>
                 <div className="card">
                     <img src="/deti.png.webp" alt="diagnostika" />
-                    <h2>Диагностика слуха у детей</h2>
-                    <p>Новейшие методы обследования слуха у детей разного возраста, в т.ч. новорожденных</p>
+                    <h2>{t.HearingDiagnosticsInChildren}</h2>
+                    <p>{t.HearingDiagnosticsInChildrenText}</p>
                 </div>
                 <div className="card">
                     <img src="/otoplastik-1.png.webp" alt="diagnostika" />
-                    <h2>Ушные вкладыши</h2>
-                    <p>Изготовление индивидуальных ушных вкладышей для слуховых аппаратов взрослым и детям</p>
+                    <h2>{t.EarPlugs}</h2>
+                    <p>{t.ManufacturingOfIndividualEarMoldsForHearingAidsForAdultsAndChildren}</p>
                 </div>
                 <div className="card">
                     <img src="/our_adresses.png.webp" alt="diagnostika" />
-                    <h2>Найти ближайший центр</h2>
-                    <p>Адреса медицинских центров диагностики и коррекции слуха в Беларуси</p>
+                    <h2>{t.FindTheNearestCenter}</h2>
+                    <p>{t.AddressesOfMedicalCentersForDiagnosticsAndHearingCorrectionInBelarus}</p>
                 </div>
             </div>
         </div>
         <div className="for-content-new">
-            <h1>Слуховые аппараты</h1>
+            <h1>{t.HearingAids}</h1>
             <div className="apparati-cards">
                 <div className="card">
                     <img src="/hearing-degree_2.png.webp" alt="hearing-degree_2" />
                     <div className="txt">
-                        <h2> При тугоухости 2 степени</h2>
-                        <p>Большой выбор моделей для помощи при нарушениях слуха умеренной степени</p>
+                        <h2> {t.ForGrade2HearingLoss}</h2>
+                        <p>{t.AWideRangeOfModels}</p>
                     </div>
                 </div>
                 <div className="card">
                     <img src="/baby_hearing_aids.jpg.webp" alt="baby_hearing_aids" />
                     <div className="txt">
-                        <h2> Для детей и подростков</h2>
-                        <p>Слуховые решения, которые помогут обеспечить ребенку нормальное развитие речевых навыков</p>
+                        <h2> {t.ForChildrenAndTeenagers}</h2>
+                        <p>{t.ForChildrenAndTeenagersText}</p>
                 </div>
                     </div>
                 <div className="card">
                     <img src="bte_hearing_aids-1.jpg.webp" alt="bte_hearing_aids-1" />
                     <div className="txt">
-                        <h2> Заушные</h2>
-                        <p>Простые в ношении, уходе и управлении эти модели легко скрываются за ушной раковиной и волосами</p>
+                        <h2>{t.BTE}</h2>
+                        <p>{t.BTEText}</p>
                     </div>
                 </div>
                 <div className="card">
                     <img src="/hearing_aids_for_adults.jpg.webp" alt="" />
                     <div className="txt">
-                        <h2> Для пожилых людей</h2>
-                        <p>Надежные, долговечные и простые в уходе слуховые решения для людей пожилого возраста</p>
+                        <h2> {t.ForTheElderly}</h2>
+                        <p>{t.ForTheElderlyText}</p>
                     </div>
                 </div>
                 <div className="card">
                     <img src="/hearing_aids_for_tinnitus_main.jpg.webp" alt="" />
                     <div className="txt">
-                        <h2> Управление шумом в ушах</h2>
-                        <p>Эффективная звуковая терапия маскирует ушной шум и приносит моментальное облегчение</p>
+                        <h2> {t.TinnitusManagement}</h2>
+                        <p>{t.TinnitusManagementText}</p>
                     </div>
                 </div>
                 <div className="card">
                     <img src="/aids_made_foriphone.jpg.webp" alt="" />
                     <div className="txt">
-                        <h2> Made for iPhone/Android</h2>
-                        <p>Звук высокого качества с вашего смартфона напрямую в слуховые аппараты</p>
+                        <h2> {t.MadeForIPhoneAndroid}</h2>
+                        <p>{t.MadeForIPhoneAndroidText}</p>
                     </div>
                 </div>
                 <div className="card">
                     <img src="/bte_hearing_aids.jpg.webp" alt="" />
                     <div className="txt">
-                        <h2> Мощные и супермощные</h2>
-                        <p>Универсальные решения для улучшения слуха при 3 и 4 степени тугоухости</p>
+                        <h2> {t.PowerfulAndSuperPowerful}</h2>
+                        <p>{t.PowerfulAndSuperPowerfulText}</p>
                     </div>
                 </div>
                 <div className="card">
                     <img src="/invisible_hearing_aids_main-1.jpg.webp" alt="" />
                     <div className="txt">
-                        <h2> Невидимые</h2>
-                        <p>Незаметное решение проблемы со слухом, с которым вы забудете о стеснении</p>
+                        <h2> {t.Invisible}</h2>
+                        <p>{t.InvisibleText}</p>
                     </div>
                 </div>
                 <div className="card">
                     <img src="/charge-hearing-aids.png.webp" alt="" />
                     <div className="txt">
-                        <h2> Перезаряжаемые</h2>
-                        <p>Вам больше не придется беспокоиться, что слуховые аппараты могут разрядиться в неподходящий момент</p>
+                        <h2> {t.Rechargeable}</h2>
+                        <p>{t.RechargeableText}</p>
                     </div>
                 </div>
             </div>
         </div>
         <div className="for-situacia">
-            <h1>Начните свой путь к хорошему слуху</h1>
+            <h1>{t.StartYourJourneyToBetterHearing}</h1>
             <div className="situacia-cards">
                 <div className="card">
                     <img src="/frame-6-5.jpg.webp" alt="" />
-                    <h2>Проверьте свой слух</h2>
-                    <p>Бесплатный онлайн-тест всего за 3 минуты поможет Вам узнать, насколько хорошо Вы слышите.</p>
+                    <h2>{t.CheckYourHearing}</h2>
+                    <p>{t.CheckYourHearingText}</p>
                 </div>
                 <div className="card">
                     <img src="/about_hearing_loss_1.png.webp" alt="" />
-                    <h2>Узнайте о потере слуха</h2>
-                    <p>Статьи и материалы о нарушении слуха помогут распознать проблему и вовремя обратиться за помощью к сурдологу.</p>
+                    <h2>{t.LearnAboutHearingLoss}</h2>
+                    <p>{t.LearnAboutHearingLossText}</p>
                 </div>
                 <div className="card">
                     <img src="/zapis-k-surdologu.png.webp" alt="" />
-                    <h2>Запишитесь к сурдологу</h2>
-                    <p>Запишитесь на прием к сурдологу и получите квалифицированную помощь в решении проблемы со слухом.</p>
+                    <h2>{t.MakeAnAppointmentWithAnAudiologist}</h2>
+                    <p>{t.MakeAnAppointmentWithAnAudiologistText}</p>
                 </div>
             </div>
         </div>
         <div className="for-news">
-            <h1>Новости</h1>
+            <h1>{t.News}</h1>
             <div className="news-cards">
                 <div className="card">
-                    <h2>Легендарный Oticon More в Беларуси</h2>
-                    <p>Слуховые аппараты нового поколения со встроенным искусственным интеллектом...</p>
+                    <h2>{t.TheLegendaryOticonMore}</h2>
+                    <p>{t.TheLegendaryOticonMoreText}</p>
                 </div>
                 <div className="card">
-                    <h2>Льготный кредит от Беларусбанка</h2>
-                    <p>Вам больше не придется ограничивать себя в выборе и откладывать решение проблемы со слухом...</p>
+                    <h2>{t.PreferentialLoanFromBelarusbank}</h2>
+                    <p>{t.PreferentialLoanFromBelarusbankText}</p>
                 </div>
                 <div className="card">
-                    <h2>Oticon Opn S в Центрах хорошего слуха</h2>
-                    <p>Инновационные слуховые аппараты Otcion Opn S уже доступны для покупки в Центрах хорошего слуха...</p>
+                    <h2>{t.OticonOpnSInGoodHearingCenters}</h2>
+                    <p>{t.OticonOpnSInGoodHearingCentersText}</p>
                 </div>
                 <div className="card">
-                    <h2>Нарушение слуха и деменция</h2>
-                    <p>Как связаны тугоухость и развитие деменции, рассказывает Главный врач Центра хорошего слуха...</p>
+                    <h2>{t.HearingLossAndDementia}</h2>
+                    <p>{t.HearingLossAndDementiaText}</p>
                 </div>
                 <div className="card">
-                    <h2>Сахарный диабет и тугоухость</h2>
-                    <p>Сахарный диабет, как фактор риска появления и развития слуховых нарушений...</p>
+                    <h2>{t.DiabetesAndHearingLoss}</h2>
+                    <p>{t.DiabetesAndHearingLossText}</p>
                 </div>
                 <div className="card">
-                    <h2>Работа Центра в Бресте в июле</h2>
-                    <p>Изменения в работе Центра в Бресте в период с 1 по 16 июля. Просим учитывать это при планировании..</p>
+                    <h2>{t.WorkOfTheCenter}</h2>
+                    <p>{t.WorkOfTheCenterText}</p>
                 </div>
             </div>
         </div>
         <div className="industry-news">
-            <h1>Новости индустрии</h1>
+            <h1>{t.IndustryNews}</h1>
             <div className="industry-slider">
                 <Swiper
                     modules={[Navigation, A11y, Autoplay]}
@@ -190,8 +193,8 @@ function Index() {
                         <a href="/">
                             <div className="card">
                                 <img src="/oticon-companion-226-196.jpg.webp" alt="" />
-                                <h2>Oticon Companion</h2>
-                                <p>Новое мобильное приложение Oticon для управления слуховыми аппаратами...</p>
+                                <h2>{t.OticonCompanion}</h2>
+                                <p>{t.OticonCompanionText}</p>
                             </div>
                         </a>
                     </SwiperSlide>
@@ -199,8 +202,8 @@ function Index() {
                         <a href="/">
                         <div className="card">
                             <img src="/oticon-own-450-392.png.webp" alt="" />
-                            <h2>Oticon Own</h2>
-                            <p>Еще меньше размер, еще больше мощности! Технологии, которые изменит вашу жизнь...</p>
+                            <h2>{t.OticonOwn}</h2>
+                            <p>{t.OticonOwnText}</p>
                         </div>
                         </a>
                     </SwiperSlide>
@@ -208,8 +211,8 @@ function Index() {
                         <a href="/">
                         <div className="card">
                             <img src="/oticon-more-450-392.png.webp" alt="" />
-                            <h2>Oticon More</h2>
-                            <p>Первый слуховой аппарат со встроенным искусственным интеллектом (DNN)...</p>
+                            <h2>{t.OticonMore}</h2>
+                            <p>{t.OticonMoreText}</p>
                         </div>
                         </a>
                     </SwiperSlide>
@@ -217,8 +220,8 @@ function Index() {
                         <a href="/">
                         <div className="card">
                             <img src="/frame-2-11.jpg.webp" alt="" />
-                            <h2>Oticon Zircon</h2>
-                            <p>Уникальные технологии Oticon BrainHearing™, которые меняют жизнь на 360 градусов...</p>
+                            <h2>{t.OticonZircon}</h2>
+                            <p>{t.OticonZirconText}</p>
                         </div>
                         </a>
                     </SwiperSlide>
@@ -226,8 +229,8 @@ function Index() {
                         <a href="/">
                         <div className="card">
                             <img src="/cochlear-news-main-page.jpg.webp" alt="" />
-                            <h2>Cochlear в Беларуси</h2>
-                            <p>Хорошая новость для пользователей систем кохлеарной имплантации в Беларуси...</p>
+                            <h2>{t.CochlearBelarus}</h2>
+                            <p>{t.CochlearBelarusText}</p>
                         </div>
                         </a>
                     </SwiperSlide>
@@ -270,7 +273,7 @@ function Index() {
             </div>
         </div>
         <div className="for-questions">
-            <h1>Часто задаваемые вопросы</h1>
+            <h1>{t.FrequentlyAskedQuestions}</h1>
             <FAQ/>
         </div>
     </div>

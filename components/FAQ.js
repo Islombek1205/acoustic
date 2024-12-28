@@ -24,7 +24,6 @@ const FAQ = () => {
 
   return (
     <div style={styles.faqContainer}>
-      <h2 style={styles.title}>Часто задаваемые вопросы</h2>
       <div style={styles.faqGrid}>
         {faqData.map((faq, index) => (
           <div key={index} style={styles.faqItem}>

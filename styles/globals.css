@@ -89,6 +89,21 @@ button{
   color: #f07e22;
 }
 
+.navContainer .nav-top .language-toggle{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f07e22;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.navContainer .nav-top .language-toggle:hover{
+  background-color: #4a3c97;
+  transition: 0.5s;
+}
+
 .navContainer .nav-bottom{
   width: 100%;
   height: 40px;
@@ -102,13 +117,13 @@ button{
 }
 
 .navContainer .nav-bottom ul li{
-  width: 172px;
+  width: 174px;
   height: 39px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f07e22;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .navContainer .nav-bottom ul li:hover{

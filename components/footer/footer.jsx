@@ -3,37 +3,39 @@ import { AiFillTikTok } from "react-icons/ai";
 import { FaInstagramSquare, FaFacebookSquare  } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
+import { useLanguage } from '../languageContext';
 
 
 function Footer() {
+  const {t} = useLanguage()
   return (
     <div className='footer-container'>
       <div className="footer-top">
         <ul>
-          <li>Центр хорошего слуха</li>
-          <li><a href="">О Центре</a></li>
-          <li><a href="">Адреса центров</a></li>
-          <li><a href="">Запись на прием</a></li>
-          <li><a href="">Заказать звонок</a></li>
-          <li><a href="">Задать вопрос</a></li>
-          <li><a href="">Оставить отзыв</a></li>
+          <li>{t.CenterForGoodHearing}</li>
+          <li><a href="">{t.AboutTheCenter}</a></li>
+          <li><a href="">{t.AddressesOfTheCenters}</a></li>
+          <li><a href="">{t.MakeAnAppointment}</a></li>
+          <li><a href="">{t.RequestCall}</a></li>
+          <li><a href="">{t.AskQuestion}</a></li>
+          <li><a href="">{t.LeaveFeedback}</a></li>
         </ul>
 
         <ul>
-          <li>Каталог</li>
-          <li><a href="">Слуховые аппараты для взрослых</a></li>
-          <li><a href="">Слуховые аппараты для детей</a></li>
-          <li><a href="">Беспроводные аксессуары</a></li>
-          <li><a href="">Батарейки для слуховых аппаратов</a></li>
-          <li><a href="">Ушные вкладыши</a></li>
-          <li><a href="">Средства по уходу</a></li>
+          <li>{t.catalog}</li>
+          <li><a href="">{t.HearingAidsForAdults}</a></li>
+          <li><a href="">{t.HearingAidsForChildren}</a></li>
+          <li><a href="">{t.WirelessAccessories}</a></li>
+          <li><a href="">{t.HearingAidBatteries}</a></li>
+          <li><a href="">{t.EarPlugs}</a></li>
+          <li><a href="">{t.CareProducts}</a></li>
         </ul>
 
           <ul>
-            <li>Мы на связи</li>
+            <li>{t.WeAreInTouch}</li>
             <li><a href="https://t.me/acousticuz_bot"><FaTelegram /></a> <a href="mailto:info@acoustic.uz">info@acoustic.uz</a></li>
-            <li><a href="">Политика обработки персональных данных</a></li>
-            <li><a href="">Положение о системе видеонаблюдения</a></li>
+            <li><a href="">{t.PersonalDataProcessingPolicy}</a></li>
+            <li><a href="">{t.RegulationsonTheVideoSurveillanceSystem}</a></li>
           </ul>
 
       </div>
