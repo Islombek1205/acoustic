@@ -92,7 +92,45 @@ export const translation = {
     RegulationsonTheVideoSurveillanceSystem: "Положение о системе видеонаблюдения",
     WeAreInTouch: "Мы на связи",
 
-    },
+    // --------------------------------------------
+    // services page
+    Home: "Главная",
+    ContentText: "Все услуги сурдолога в одном месте. Профессиональная помощь людям с тугоухостью. Диагностика, лечение и коррекция нарушений слуха у взрослых и детей с самого рождения.",
+    DiagnosticsForChildren: " Диагностика для детей",
+    DiagnosticsForChildrenText: "Специалисты Центра хорошего слуха оказывают полный комплекс услуг по диагностике и коррекции нарушений слуха у взрослых и детей с рождения.",
+    DiagnosticsForAdults: " Диагностика слуха для взрослых",
+    DiagnosticsForAdultsText: "Все виды диагностики слуха у взрослых выполняют сурдологи с применением оборудования экспертного уровня.",
+    ConsultationWithAudiologist: " Консультация врача-сурдолога",
+    ConsultationWithAudiologistText: "Прием врача-сурдолога занимает по времени от 30 минут до 1 часа и проходит в несколько этапов: осмотр, отоскопия, диагностика слуха, подбор и настройка слуховых аппаратов.",
+    HearingCorrectionWithHearingAids: " Коррекция слуха слуховыми аппаратами",
+    HearingCorrectionWithHearingAidsText: "Коррекция и реабилитация слуха при тугоухости у взрослых, детей и пожилых людей при помощи современных слуховых аппаратов.",
+    CustomEarmolds: " Индивидуальные ушные вкладыши",
+    CustomEarmoldsText: "Использование индивидуального ушного вкладыша делает звучание слухового аппарата более комфортным и уменьшает риск возникновения свиста обратной связи.",
+    RepairAndDiagnosticsOfHearingAids: " Ремонт и диагностика слуховых аппаратов",
+    RepairAndDiagnosticsOfHearingAidsText: "Ремонт слуховых аппаратов выполняется только квалифицированным специалистом с применением оригинальных запасных частей и компонентов.",
+    ReceptionOfForeignCitizens: " Прием иностранных граждан",
+    ReceptionOfForeignCitizensText: "Центр хорошего слуха ведет прием пациентов из других государств по прейскуранту, действительному для граждан Беларуси.",
+    OnlineHearingTest: "Проверка слуха онлайн",
+    OnlineHearingTestText: "Заметили, что стали хуже слышать? Пройдите простой и быстрый онлайн-тест, который поможет узнать насколько хорошо вы слышите и разбираете речь.",
+    HearingAidsInInstallments: "Слуховые аппараты в рассрочку",
+    HearingAidsInInstallmentsText: "Cовременные слуховые аппараты в рассрочку 0% без переплат и участия банков всего за 1 прием.",
+    PricesForMedicalServices: " Цены на медицинские услуги",
+    PricesForMedicalServicesText: "Полный прейскурант цен на услуги врача-сурдолога и диагностику слуха в Минске, Бресте, Гродно, Витебске, Гомеле, Могилеве.",
+    Audiometry: " Аудиометрия",
+    AudiometryText: "Как и в каких случаях выполняется аудиометрия, как расшифровывается аудиограмма и какие результаты показывает. Тональная, речевая и надпороговая аудиограмма - в чем отличие.",
+    HearingDiagnosticsInAdults: " Диагностика слуха у взрослых",
+    HearingDiagnosticsInAdultsText: "Для оценки слуха у взрослого сурдологи проводят более 10 аудиологических тестов. Диагностика выполняется на новейшем оборудовании фирмы Interacoustics (Дания).",
+
+
+    // catalog page
+    CatalogText: "Команда профессионалов Центра хорошего слуха знает, как улучшить качество качество жизни людей с нарушениями слуха, используя в своей работе индивидуальный подход и внушительный ассортимент товаров для слабослышащих.",
+    HearingAidstext: "Самый большой каталог современных слуховых аппаратов из Дании для людей с тугоухостью от мировых лидеров ReSound, Oticon и Widex.",   
+    HearingAidsForChildrenText: "Большой выбор моделей современных детских слуховых аппаратов из Дании Oticon и ReSound - от миниатюрных до ультрамощных заушных, для коррекции всех степеней тугоухости.",
+
+
+
+
+},
 
     uz: {
         // navbar ----------------------------
@@ -186,6 +224,40 @@ export const translation = {
     RegulationsonTheVideoSurveillanceSystem: "Videokuzatuv tizimi to'g'risidagi nizom",
     WeAreInTouch: "Biz aloqadamiz",
 
+    // ------------------------------------
+    // services page
+    Home: "Bosh sahifa",
+    ContentText: "Barcha audiolog xizmatlari bir joyda. Eshitish qobiliyatini yo'qotgan odamlar uchun professional yordam. Tug'ilgandan boshlab kattalar va bolalarda eshitish buzilishi diagnostikasi, davolash va tuzatish.",
+    DiagnosticsForChildren: "Bolalar uchun diagnostika",
+    DiagnosticsForChildrenText: "Yaxshi eshitish markazining mutaxassislari kattalar va tug'ilishdan boshlab bolalarda eshitish qobiliyatini tashxislash va tuzatish bo'yicha to'liq xizmatlarni taqdim etadilar.",
+    DiagnosticsForAdults: "Kattalar uchun eshitish diagnostikasi",
+    DiagnosticsForAdultsText: "Kattalardagi barcha turdagi eshitish diagnostikasi audiologlar tomonidan ekspert darajasidagi uskunalar yordamida amalga oshiriladi.",
+    ConsultationWithAudiologist: "Audiolog bilan maslahatlashing",
+    ConsultationWithAudiologistText: "Odolog bilan uchrashuv 30 daqiqadan 1 soatgacha davom etadi va bir necha bosqichda amalga oshiriladi: tekshirish, otoskopiya, eshitish diagnostikasi, eshitish vositalarini tanlash va sozlash.",   
+    HearingCorrectionWithHearingAids: "Eshitish vositalari bilan eshitishni tuzatish",
+    HearingCorrectionWithHearingAidsText: "Zamonaviy eshitish vositalaridan foydalangan holda kattalar, bolalar va qariyalarda eshitish qobiliyatini tuzatish va reabilitatsiya qilish.", 
+    CustomEarmolds: "Maxsus quloq maslahatlari",
+    CustomEarmoldsText: "Maxsus quloq qolipidan foydalanish eshitish moslamasining ovozini yanada qulay qiladi va fikr-mulohazalarni hushtak chalish xavfini kamaytiradi.",
+    RepairAndDiagnosticsOfHearingAids: "Eshitish asboblarini ta'mirlash va diagnostika qilish",
+    RepairAndDiagnosticsOfHearingAidsText: "Eshitish vositalarini ta'mirlash faqat malakali mutaxassis tomonidan original ehtiyot qismlar va butlovchi qismlardan foydalangan holda amalga oshirilishi kerak.",
+    ReceptionOfForeignCitizens: "Chet el fuqarolarini qabul qilish",
+    ReceptionOfForeignCitizensText: "Yaxshi eshitish markazi boshqa mamlakatlardan bemorlarni Belarus fuqarolari uchun amal qiladigan narxlar ro'yxatiga muvofiq qabul qiladi.",
+    OnlineHearingTest: "Onlayn eshitish testi",
+    OnlineHearingTestText: "Sizning eshitishingiz yomonlashganini payqadingizmi? Nutqni qanchalik yaxshi eshitishingiz va tushunishingiz mumkinligini aniqlashga yordam beradigan tez va oddiy onlayn testdan o'ting.",
+    HearingAidsInInstallments: "Eshitish asboblari nasiyaga",
+    HearingAidsInInstallmentsText: "Zamonaviy eshitish apparatlari ortiqcha to'lovlarsiz 0% bo'lib-bo'lib, atigi 1 uchrashuvda bank ishtirokida.",
+    PricesForMedicalServices: "Tibbiy xizmatlar uchun narxlar",
+    PricesForMedicalServicesText: "Minsk, Brest, Grodno, Vitebsk, Gomel, Mogilevda audiolog xizmatlari va eshitish diagnostikasi narxlarining to'liq ro'yxati.",
+    Audiometry: "Audiometriya",
+    AudiometryText: "Audiometriya qanday va qanday hollarda amalga oshiriladi, audiogramma qanday dekodlanadi va u qanday natijalarni ko'rsatadi. Ohang, nutq va chegaradan yuqori audiogramma - farq nima.",
+    HearingDiagnosticsInAdults: "Kattalardagi eshitish diagnostikasi",
+    HearingDiagnosticsInAdultsText: "Voyaga etgan odamning eshitish qobiliyatini baholash uchun audiologlar 10 dan ortiq audiologik testlarni o'tkazadilar. Diagnostika Interacoustics (Daniya) kompaniyasining eng yangi uskunalari yordamida amalga oshiriladi.",
+
+
+    // Catalog page
+    CatalogText: "Yaxshi eshitish markazining professionallar jamoasi o'z ishlarida individual yondashuv va eshitish qobiliyati zaif odamlar uchun ta'sirchan assortimentdan foydalangan holda, eshitish qobiliyati zaif odamlarning hayot sifatini qanday yaxshilashni biladi.",
+    HearingAidstext: "Dunyo yetakchilari ReSound, Oticon va Widexdan eshitish qobiliyatini yo'qotgan odamlar uchun Daniyadan zamonaviy eshitish vositalarining eng katta katalogi.",
+    HearingAidsForChildrenText: "Daniya Oticon va ReSound zamonaviy bolalar eshitish apparatlari modellarining katta tanlovi - miniatyuradan tortib o'ta kuchli quloq orqasigacha, eshitish qobiliyatining barcha darajalarini tuzatish uchun.",
 
     }
   };
