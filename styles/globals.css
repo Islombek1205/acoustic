@@ -698,6 +698,7 @@ button{
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
+  gap: 20px;
 }
 
 .catalog-container .left .cards-container a{
@@ -728,6 +729,7 @@ button{
 
 .catalog-container .left .cards-container .card img{
   width: 126px;
+  height: 126px;
 }
 
 .catalog-container .right{
@@ -774,6 +776,270 @@ button{
   text-decoration: underline;
 }
 
+/* ----------------------------------------------------------------------------- */
+/* Doctors page */
+
+.doctors-container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.nih-bread{
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 5px 33px;
+  background-color: #f07e22;
+  color: #fff;
+  font-size: 12px;
+}
+
+.doctors-container .nih-bread a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.doctors-container .nih-bread a:hover{
+  text-decoration: underline;
+}
+
+.doctors-container h1{
+  width: 100%;
+  height: 60px;
+  /* background-color: #873d00; */
+  padding: 12px 33px;
+  color: #fff;
+  background: rgb(135,61,0);
+  background: linear-gradient(90deg, rgba(135,61,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.doctors-container h2{
+  margin: 0 16px 18px;
+  color: #873d00;
+}
+
+.doctors-container .doctors-cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 25px;
+  gap: 30px;
+}
+
+.doctors-container .doctors-cards a{
+  width: 45%;
+  text-decoration: none;
+}
+
+.doctors-container .doctors-cards .card{
+  display: flex;
+  gap: 10px;
+}
+
+.doctors-container .doctors-cards .card img{
+  width: 30%;
+  height: 100%;
+}
+
+.doctors-container .doctors-cards .card .txt{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #444444;
+}
+
+.doctors-container .doctors-cards .card .txt p{
+  font-size: 18px;
+  color: #004fba;
+}
+
+.doctors-container .doctors-cards .card:hover .txt p{
+  text-decoration: underline;
+}
+
+/* --------------------------------------------------------------- */
+/* AboutUs page */
+.aboutPage-container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.aboutPage-container a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.aboutPage-container a:hover{
+  text-decoration: underline;
+}
+
+.aboutPage-container h1{
+  width: 100%;
+  height: 60px;
+  /* background-color: #873d00; */
+  padding: 12px 33px;
+  color: #fff;
+  background: rgb(135,61,0);
+  background: linear-gradient(90deg, rgba(135,61,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.aboutPage-container .content{
+  width: 100%;
+  padding: 10px 16px 18px;
+}
+
+.aboutPage-container .content img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.aboutPage-container .content h2{
+  font-size: 24px;
+  color: #f07e22;
+}
+
+.aboutPage-container .content p{
+  color: #2b2b2b;
+  margin-top: 10px;
+}
+
+.aboutPage-container .about-cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 16px 18px;
+  gap: 15px;
+}
+
+.aboutPage-container .about-cards a{
+  width: 30%;
+  margin-top: 30px;
+}
+
+.aboutPage-container .about-cards a .card{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aboutPage-container .about-cards a .card:hover p{
+  text-decoration: underline;
+  color: #f78da7;
+}
+
+.aboutPage-container .about-cards a img{
+  width: 100%;
+}
+
+.aboutPage-container .about-cards a p{
+  font-size: 19px;
+  color: #004fba;
+}
+
+.aboutPage-container .about-cards a span{
+  font-size: 16px;
+  color: #444444;
+}
+
+/* ------------------------------------------------------------- */
+/* deti i sluh page */
+.deti-i-sluh{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.deti-i-sluh a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.deti-i-sluh a:hover{
+  text-decoration: underline;
+}
+
+.deti-i-sluh h1{
+  width: 100%;
+  height: 60px;
+  /* background-color: #873d00; */
+  padding: 12px 33px;
+  color: #fff;
+  background: rgb(135,61,0);
+  background: linear-gradient(90deg, rgba(135,61,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.deti-i-sluh .content{
+  width: 100%;
+  padding: 10px 16px 18px;
+}
+
+.deti-i-sluh .content p{
+  color: #2b2b2b;
+}
+
+.deti-i-sluh .cards-container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.deti-i-sluh .cards-container a{
+  width: 45%;
+}
+
+.deti-i-sluh .cards-container a .card{
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  color: #444444;
+}
+
+
+
+.deti-i-sluh .cards-container a img{
+  width: 30%;
+  height: 100%;
+}
+
+.deti-i-sluh .cards-container a .txt{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.deti-i-sluh .cards-container a .card .txt p{
+  color: #004fba;
+  font-size: 18px;
+}
+
+.deti-i-sluh .cards-container a:hover .txt p{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -812,6 +1078,30 @@ button{
   .services-container .nih-text{
     font-size: 13px;
   }
+  .catalog-container .content .left .cards-container .card p{
+    font-size: 16px;
+  }
+  .catalog-container .content .left .cards-container .card span{
+    font-size: 13px;
+  }
+  .catalog-container .content .left p{
+    font-size: 13px;
+  }
+  .doctors-container .doctors-cards p{
+    font-size: 16px;
+  }
+  .doctors-container .doctors-cards span{
+    font-size: 13px;
+  }
+  .aboutPage-container p{
+    font-size: 13px;
+  }
+  .aboutPage-container .about-cards p{
+    font-size: 16px;
+  }
+  .aboutPage-container .about-cards span{
+    font-size: 13px;
+  }
 
   .for-content{
     width: 85%;
@@ -840,8 +1130,26 @@ button{
   .services-container{
     width: 85%;
   }
+  .catalog-container{
+    width: 85%;
+  }
+  .aboutPage-container{
+    width: 85%;
+  }
+  .catalog-container .content .right{
+    display: none;
+  }
+  .catalog-container .content .left{
+    width: 100%;
+  }
   .navContainer .nav-bottom ul li{
     width: 135px;
+  }
+  .doctors-container{
+    width: 85%;
+  }
+  .aboutPage-container{
+    width: 85%;
   }
 }
 
@@ -863,6 +1171,7 @@ button{
   .navContainer{
     height: 100px;
     background-color: #f07e22;
+    box-shadow: 0 0 10px #4a3c97;
   }
 
   .navContainer .nav-top .search-form{
@@ -902,6 +1211,11 @@ button{
     /* box-shadow: 0 0 10px #acacac; */
     border: 1px solid #fff;
   }
+  .navContainer .nav-top .language-toggle{
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 816px) {
@@ -912,6 +1226,16 @@ button{
   }
   .services-container .content-cards .nih-text{
     width: 250px;
+  }
+  .catalog-container .content .left .cards-container .card img{
+    width: 100px;
+    height: 100px;
+  }
+  .doctors-container .doctors-cards a{
+    width: 90%;
+  }
+  .aboutPage-container .about-cards a{
+    width: 45%;
   }
 }
 
@@ -949,8 +1273,32 @@ button{
   .services-container{
     width: 90%;
   }
+  .catalog-container{
+    width: 90%;
+  }
+  .doctors-container{
+    width: 90%;
+  }
+  .aboutPage-container{
+    width: 90%;
+  }
   .services-container .content-cards .nih-text{
     width: 250px;
+  }
+  .catalog-container .content .left .cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .catalog-container .content .left .cards-container .card{
+    width: 500px;
+    display: flex;
+    justify-content: start;
+  }
+  .catalog-container .content .left .cards-container .card .txt{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -972,6 +1320,11 @@ button{
     flex-direction: column;
     gap: 0px;
   }
+  .navContainer .nav-top .language-toggle{
+    width: 50px;
+    height: 25px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 600px){
@@ -983,8 +1336,29 @@ button{
   }
 }
 
+  @media (max-width: 545px){
+    .catalog-container .content .left .cards-container .card{
+      width: 400px;
+    }
+    .aboutPage-container .about-cards a{
+      width: 90%;
+    }
+    .aboutPage-container .about-cards{
+      justify-content: center;
+    }
+  }
+
 @media (max-width: 461px){
   .for-news .news-cards .card{
     width: 80%;
+  }
+  .catalog-container .content .left .cards-container .card{
+    width: 300px;
+  }
+  .navContainer .nav-top .new-infoline .main-phone a{
+    font-size: 12px;
+  }
+  .navContainer .nav-top .new-infoline .main-phone .phone-icon{
+    font-size: 14px;
   }
 }

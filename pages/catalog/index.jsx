@@ -1,77 +1,70 @@
-import { useLanguage } from '@/components/languageContext'
-import React from 'react'
+import { useLanguage } from "@/components/languageContext";
+import React from "react";
+import {leftCards, rightListItems, brands} from "./catalogCards"
 
-function catalog() {
-  const {t} = useLanguage()
+function Catalog() {
+  const { t } = useLanguage();
+
   return (
-    <div className='catalog-container'>
+    <div className="catalog-container">
+      {/* Nonusqa */}
       <div className="nih-bread">
-        <span><a href="/">{t.Home}</a> » {t.catalog} </span>
+        <span>
+          <a href="/">{t.Home}</a> » {t.catalog}
+        </span>
       </div>
+      
       <h1>{t.catalog}</h1>
+      
       <div className="content">
+        {/* Chap tomondagi kartalar */}
         <div className="left">
           <p>{t.CatalogText}</p>
           <div className="cards-container">
-            <a href="">
-              <div className="card">
-                <img src="/catalog_hearing-aids.jpg.webp" alt="" />
-                <div className="txt">
-                  <p>{t.HearingAids}</p>
-                  <span>{t.HearingAidstext}</span>
+            {leftCards.map((card, index) => (
+              <a href={card.link} key={index}>
+                <div className="card">
+                  <img src={card.img} alt="" />
+                  <div className="txt">
+                    <p>{t[card.titleKey]}</p>
+                    <span>{t[card.textKey]}</span>
+                  </div>
                 </div>
-              </div>
-            </a>
-            <a href="">
-              <div className="card">
-                <img src="/baby_hearing_aids.jpg.webp" alt="" />
-                <div className="txt">
-                  <p>{t.HearingAidsForChildren}</p>
-                  <span>{t.HearingAidsForChildrenText}</span>
-                </div>
-              </div>
-            </a>
+              </a>
+            ))}
           </div>
         </div>
+
+        {/* O'ng tomondagi ro'yxatlar */}
         <div className="right">
           <ul>
-            <li>
-              <a href="">
-                <img src="/hearing_aid2.jpg" alt="" />
-                <div className="text">
-                  <p>{t.catalog}</p>
-                  <span>слуховых аппаратов</span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="/batareiky.jpg" alt="" />
-                <p>Батарейки для слуховых аппаратов</p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="/hearing_aids_clean.jpg" alt="" />
-                <p>Средства по уходу</p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="/hearing_wireless.jpg" alt="" />
-                <p>Беспроводные аксессуары</p>
-              </a>
-            </li>
+            {rightListItems.map((item, index) => (
+              <li key={index}>
+                <a href={item.link}>
+                  <img src={item.img} alt="" />
+                  <div className="text">
+                    {item.titleKey ? <p>{t[item.titleKey]}</p> : null}
+                    {item.subtitle ? <span>{item.subtitle}</span> : <p>{item.text}</p>}
+                  </div>
+                </a>
+              </li>
+            ))}
           </ul>
-          <ul className='brends'>
-            <li><a href=""><img src="/oticon_brand_new.gif" alt="" /></a></li>
-            <li><a href=""><img src="/resound_brand_new.gif" alt="" /></a></li>
-            <li><a href=""><img src="/brand01rc.gif" alt="" /></a></li>
+          
+          {/* Brendlar */}
+          <ul className="brends">
+            {brands.map((brand, index) => (
+              <li key={index}>
+                <a href="">
+                  <img src={brand} alt={`brand-${index}`} />
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default catalog
+export default Catalog;

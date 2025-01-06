@@ -1,3 +1,5 @@
+import DetiISluh from "@/pages/deti-i-sluh";
+
 export const translation = {
     ru: {
 // navbar--------------------------------------
@@ -126,6 +128,76 @@ export const translation = {
     CatalogText: "Команда профессионалов Центра хорошего слуха знает, как улучшить качество качество жизни людей с нарушениями слуха, используя в своей работе индивидуальный подход и внушительный ассортимент товаров для слабослышащих.",
     HearingAidstext: "Самый большой каталог современных слуховых аппаратов из Дании для людей с тугоухостью от мировых лидеров ReSound, Oticon и Widex.",   
     HearingAidsForChildrenText: "Большой выбор моделей современных детских слуховых аппаратов из Дании Oticon и ReSound - от миниатюрных до ультрамощных заушных, для коррекции всех степеней тугоухости.",
+    CochlearImplants: " Кохлеарные импланты",
+    CochlearImplantsText: "Интеллектуальные слуховые решения и аксессуары от компании Cochlear для восстановления слуха при тугоухости.",
+    HearingAidBatteriesText: "Мощные, экономичные и долговечные батарейки всех типоразмеров для слуховых аппаратов и кохлеарных имплантов по самым выгодным ценам.",
+    HearingAidCareProducts: " Товары для ухода за слуховыми аппаратами",
+    HearingAidCareProductsText: "Каталог содержит полный набор инструментов и аксессуаров, которые помогут вам регулярно ухаживать за слуховыми аппаратами и значительно продлить срок их службы.",
+    EarPlugsText: "Качественные и надежные индивидуальные ушные вкладыши из силиконового и акрилового материала, выполненные индивидуально по слепку ушного канала.",
+    WirelessAccessoriesText: "Беспроводные аксессуары расширяют и улучшают возможности Ваших слуховых аппаратов в ежедневных ситуациях (просмотр TV, вождение авто, разговоры в шуме и др.).",
+
+    // Doctors page
+    OurDoctors: "Наши врачи",
+    MatveevKonstantinNikolaevich: "Матвеев Константин Николаевич",
+    AboutMatveevKonstantinNikolaevich: "Зав. сурдологическим отделением. Врач сурдолог-оториноларинголог I категории. Прием взрослых и детей.",
+    ExpMatveevKonstantinNikolaevich: "Стаж работы: с 2007 года",
+    ChicherovKonstantinValerievich: " Чичеров Константин Валерьевич",
+    AboutChicherovKonstantinValerievich: "Врач сурдолог-оториноларинголог высшей категории. Ведет прием взрослых и детей.",
+    ExpChicherovKonstantinValerievich: "Стаж работы: с 2002 года",
+    ZasenkoIrinaLeonidovna: " Засенко Ирина Леонидовна",
+    AboutZasenkoIrinaLeonidovna: "Врач сурдолог-оториноларинголог I категории. Ведет прием взрослых и детей.",
+    ExpZasenkoIrinaLeonidovna: "Стаж работы: с 2002 года",
+    XayrulinaSvetlanaIvanovna: " Хайрулина Светлана Ивановна",
+    AboutXayrulinaSvetlanaIvanovna: "Врач сурдолог-оториноларинголог I категории. Ведет прием взрослых и детей с рождения.",
+    ExpXayrulinaSvetlanaIvanovna: "Стаж работы: с 2007 года",
+    MorevaElenaVasilevna: " Морева Елена Васильевна",
+    AboutMorevaElenaVasilevna: "Врач сурдолог-оториноларинголог высшей категории. Ведет прием взрослых и детей.",
+    ExpMorevaElenaVasilevna: "Стаж работы: с 2004 года",
+    SmolikMariyaAxmedsheyxovna: " Смолик Мария Ахмедшейховна",
+    AboutSmolikMariyaAxmedsheyxovna: "Врач сурдолог-оториноларинголог I категории. Ведет прием взрослых и детей.",
+    ExpSmolikMariyaAxmedsheyxovna: "Стаж работы: с 2009 года",
+
+
+    // --------------------------------------------------------------
+    // About us Page
+    OurMission: "Наша миссия",
+    OurMissionText1: "Наша главная ценность это люди, которые столкнулись с проблемой нарушения слуха и нуждаются в профессиональной сурдологической помощи. Более 20 лет мы помогаем людям вернуть возможность слышать мир. Мы стремимся быть лучшими, чтобы предложить вам лучшие решения для вашего слуха. За 20 лет выросло целое поколение тех, в чью судьбу мы внесли пусть и небольшой вклад, но счастливы слышать и видеть их результаты и успехи. Мы гордимся тем, что мы делаем.",
+    OurMissionText2: "Надеемся, что информация на данном ресурсе будет полезной для вас. Мы хотим быть непохожими на других и делаем то, что не удается остальным. Поэтому мы предлагаем решения с учетом ваших индивидуальных особенностей и по доступной цене. Современное оборудование, специалисты высокого уровня — все это доступно для вас в наших центрах. Это оценили наши клиенты из России, Казахстана, Украины, стран Европы и Балтии.",
+    AboutUsText: "С 2001 года мы работаем во благо людей с тугоухостью, чтобы вернуть и сохранить ценный ресурс - слух.",
+    Specialists: "Специалисты",
+    SpecialistsText: "Команда профессионалов ежедневно помогает слабослышащим людям в решении проблем со слухом.",
+    EquipmentAndTechnologies: "Оборудование и технологии",
+    EquipmentAndTechnologiesText: "Технологическое оснащение центров соответствует высоким стандартам слухопротезирования.",
+    PatientReviews: "Отзывы пациентов",
+    PatientReviewsText: "Наши услуги соответствуют требованиям законодательства Республики Беларусь.",
+    Licenses: "Лицензии и сертификаты",
+    LicensesText: "Наши услуги соответствуют требованиям законодательства Республики Беларусь.",
+    Contacts: "Контакты",
+    ContactsText: "Центры слуха работают в Минске и областных городах ежедневно без обеда и выходных.",
+
+    // ---------------------------------------------------------------
+    // Deti i Sluh
+    DetiISluhText: "Почему важно контролировать детский слух, какие причины могут повлиять на его ухудшение, как вовремя обнаружить тугоухость у ребенка и какие методы лечения существуют.",
+    HearingLossInChildren: " Тугоухость у детей",
+    HearingLossInChildrenText: "Выявить признаки тугоухости у ребенка в раннем возрасте - важная задача для родителей и врачей.",
+    SignsOfHearing: " Признаки нарушения слуха у детей",
+    SignsOfHearingText: "Для каждого периода развития ребенка характерны определенные реакции на окружающие звуки.",
+    DetermineChild: " Как определить у ребенка тугоухость",
+    DetermineChildText: "Первоочередная задача родителей - как можно раньше совместно с врачом-сурдологом выявить у ребенка тугоухость.",
+    HowToPrepare: " Как подготовить ребенка к обследованию слуха",
+    HowToPrepareText: "Как правильно подготовить ребенка к проверке слуха в зависимости от его возраста ребенка и планируемого метода обследования.",
+    CorrectionOfHearing: " Коррекция тугоухости у детей",
+    CorrectionOfHearingText: "Успешная коррекция тугоухости у детей ведет к развитию речи на равных с нормально слышащими сверстниками.",
+    FeaturesOfHearing: " Особенности коррекции слуха у детей",
+    FeaturesOfHearingText: "Схема ведения маленьких пациентов в Центрах хорошего слуха при коррекции нарушений слуха.",
+    EarlyDiagnosis: " Ранняя диагностика — залог успешной реабилитации",
+    EarlyDiagnosisText: "Если вы подозреваете, что ребенок плохо слышит, то важно не упустить время.",
+    FailedTheAudioScreening: " Ребенок не прошел аудиоскрининг, что делать0",
+    FailedTheAudioScreeningText: "Аудиоскрининг - простой, быстрый и безболезненный тест, который позволяет определить, есть ли патология в системе слуха.",
+
+
+
+
 
 
 
@@ -258,6 +330,84 @@ export const translation = {
     CatalogText: "Yaxshi eshitish markazining professionallar jamoasi o'z ishlarida individual yondashuv va eshitish qobiliyati zaif odamlar uchun ta'sirchan assortimentdan foydalangan holda, eshitish qobiliyati zaif odamlarning hayot sifatini qanday yaxshilashni biladi.",
     HearingAidstext: "Dunyo yetakchilari ReSound, Oticon va Widexdan eshitish qobiliyatini yo'qotgan odamlar uchun Daniyadan zamonaviy eshitish vositalarining eng katta katalogi.",
     HearingAidsForChildrenText: "Daniya Oticon va ReSound zamonaviy bolalar eshitish apparatlari modellarining katta tanlovi - miniatyuradan tortib o'ta kuchli quloq orqasigacha, eshitish qobiliyatining barcha darajalarini tuzatish uchun.",
+    CochlearImplants: "Koxlear implantlar",
+    CochlearImplantsText: "Eshitish qobiliyatini yo'qotganlar uchun eshitish qobiliyatini tiklash uchun Cochlear kompaniyasining aqlli eshitish yechimlari va aksessuarlari.",
+    HearingAidBatteriesText: "Eshitish asboblari va koxlear implantlar uchun barcha o'lchamdagi kuchli, tejamkor va bardoshli batareyalar eng yaxshi narxlarda.",
+    HearingAidCareProducts: "Eshitish vositalarini parvarish qilish mahsulotlari",
+    HearingAidCareProductsText: "Katalogda sizning eshitish asboblaringizga muntazam g'amxo'rlik qilish va ularning xizmat muddatini sezilarli darajada uzaytirishda yordam beradigan asboblar va aksessuarlarning to'liq to'plami mavjud.",
+    EarPlugsText: "Silikon va akril materiallardan tayyorlangan yuqori sifatli va ishonchli individual quloq uchlari quloq kanali taassurotiga ko'ra individual ravishda tayyorlanadi.",
+    WirelessAccessoriesText: "Simsiz aksessuarlar kundalik vaziyatlarda (televizor ko'rish, haydash, shovqinda gaplashish va h.k.) eshitish vositalarining imkoniyatlarini kengaytiradi va yaxshilaydi.",
 
-    }
+
+
+    // Doctors page
+    OurDoctors: "Bizning shifokorlar",
+    MatveevKonstantinNikolaevich: "Matveev Konstantin Nikolaevich",
+    AboutMatveevKonstantinNikolaevich: "Bosh audiologiya bo'limi. Audiolog-otolaringolog, I toifa. Kattalar va bolalarni qabul qilish.",
+    ExpMatveevKonstantinNikolaevich: "Ish tajribasi: 2007 yildan beri",
+    ChicherovKonstantinValerievich: "Chicherov Konstantin Valerievich",
+    AboutChicherovKonstantinValerievich: "Oliy toifali audiolog-otolaringolog. Kattalar va bolalarni qabul qiladi.",
+    ExpChicherovKonstantinValerievich: "Ish tajribasi: 2002 yildan beri",
+    ZasenkoIrinaLeonidovna: "Zasenko Irina Leonidovna",
+    AboutZasenkoIrinaLeonidovna: "Audiolog-otolaringolog, I toifa. Kattalar va bolalarni qabul qiladi.",
+    ExpZasenkoIrinaLeonidovna: "Ish tajribasi: 2000 yildan beri",
+    XayrulinaSvetlanaIvanovna: "Xayrulina Svetlana Ivanovna",
+    AboutXayrulinaSvetlanaIvanovna: "Audiolog-otolaringolog, I toifa. U tug'ilgandan boshlab kattalar va bolalarni qabul qiladi.",
+    ExpXayrulinaSvetlanaIvanovna: "Ish tajribasi: 2007 yildan beri",
+    MorevaElenaVasilevna: "Moreva Elena Vasilevna",
+    AboutMorevaElenaVasilevna: "Oliy toifali audiolog-otolaringolog. Kattalar va bolalarni qabul qiladi.",
+    ExpMorevaElenaVasilevna: "Ish tajribasi: 2004 yildan beri",
+    SmolikMariyaAxmedsheyxovna: "Smolik Mariya Axmedsheyxovna",
+    AboutSmolikMariyaAxmedsheyxovna: "Audiolog-otolaringolog, I toifa. Kattalar va bolalarni qabul qiladi.",
+    ExpSmolikMariyaAxmedsheyxovna: "Ish tajribasi: 2009 yildan beri",
+
+
+
+    // ----------------------------------------------------------
+    // About us Page
+    OurMission: "Bizning vazifamiz",
+    OurMissionText1: "Bizning asosiy qadriyatimiz eshitish qobiliyatini yo'qotish muammosiga duch kelgan va professional audiologik yordamga muhtoj odamlardir. 20 yildan ortiq vaqt davomida biz odamlarga dunyoni eshitish qobiliyatini tiklashga yordam beramiz. Biz sizning eshitishingiz uchun eng yaxshi echimlarni taklif qilish uchun eng yaxshi bo'lishga intilamiz. O‘tgan 20 yil ichida taqdirlariga oz bo‘lsada hissa qo‘shgan, ammo ularning samarasi va muvaffaqiyatlarini ko‘rib, eshitib, xursand bo‘lgan insonlardan butun bir avlod yetishib chiqdi. Biz qilayotgan ishimizdan faxrlanamiz.",
+    OurMissionText2: "Umid qilamizki, ushbu resursdagi ma'lumotlar siz uchun foydali bo'ladi. Biz boshqalardan farq qilishni va boshqalar qila olmaydigan narsalarni qilishni xohlaymiz. Shuning uchun biz sizning shaxsiy ehtiyojlaringizga moslashtirilgan va arzon narxlardagi echimlarni taklif qilamiz. Zamonaviy jihozlar, yuqori saviyali mutaxassislar – bularning barchasi markazlarimizda mavjud. Bu Rossiya, Qozog'iston, Ukraina, Yevropa va Boltiqbo'yi mamlakatlaridagi mijozlarimiz tomonidan yuqori baholandi.",
+    AboutUsText: "2001 yildan beri biz eshitish qobiliyatini yo'qotgan odamlar manfaati uchun qimmatli manba - eshitishni tiklash va saqlash uchun ishlamoqdamiz.",
+    Specialists: "Mutaxassislar",
+    SpecialistsText: "Professionallar jamoasi har kuni eshitish qobiliyati past odamlarga eshitish muammolarini hal qilishga yordam beradi.",
+    EquipmentAndTechnologies: "Uskunalar va texnologiyalar",
+    EquipmentAndTechnologiesText: "Markazlarning texnologik jihozlari eshitish xizmatining yuqori standartlariga javob beradi.",
+    PatientReviews: "Bemorlarning sharhlari",
+    PatientReviewsText: "Bizning xizmatlarimiz Belarus Respublikasi qonunchiligi talablariga javob beradi.",
+    Licenses: "Litsenziyalar va sertifikatlar",
+    LicensesText: "Bizning xizmatlarimiz Belarus Respublikasi qonunchiligi talablariga javob beradi.",
+    Contacts: "Kontaktlar",
+    ContactsText: "Minsk va viloyat shaharlarida har kuni, shu jumladan tushlik va dam olish kunlarida eshitish markazlari ishlaydi.",
+
+
+// -------------------------------------------------------------------
+// Deti i sluh
+    DetiISluhText: "Nima uchun bolalarning eshitishini kuzatish muhim, qanday sabablar uning yomonlashishiga ta'sir qilishi mumkin, bolada eshitish qobiliyatini o'z vaqtida qanday aniqlash mumkin va qanday davolash usullari mavjud.",
+    HearingLossInChildren: "Bolalarda eshitish halokati",
+    HearingLossInChildrenText: "Bolada erta yoshda eshitish qobiliyatini yo'qotish belgilarini aniqlash ota-onalar va shifokorlar uchun muhim vazifadir.", 
+    SignsOfHearing: "Bolalarda eshitish qobiliyatini yo'qotish belgilari",
+    SignsOfHearingText: "Bola rivojlanishining har bir davri atrof-muhit tovushlariga ma'lum reaktsiyalar bilan tavsiflanadi.",
+    DetermineChild: "Bolada eshitish qobiliyati yo'qligini qanday aniqlash mumkin",
+    DetermineChildText: "Ota-onalarning asosiy vazifasi - audiolog bilan birgalikda bolaning eshitish qobiliyatini imkon qadar erta aniqlash.",
+    HowToPrepare: "Farzandingizni eshitish testiga qanday tayyorlash kerak",
+    HowToPrepareText: "Bolaning yoshi va rejalashtirilgan tekshiruv usuliga qarab, bolani eshitish testiga qanday qilib to'g'ri tayyorlash kerak.",
+    CorrectionOfHearing: "Bolalarda eshitish qobiliyatini yo'qotishni tuzatish",
+    CorrectionOfHearingText: "Bolalarda eshitish qobiliyatining yo'qolishini muvaffaqiyatli tuzatish nutqni normal eshitadigan tengdoshlari bilan teng ravishda rivojlanishiga olib keladi.",
+    FeaturesOfHearing: "Bolalarda eshitish korreksiyasining xususiyatlari",
+    FeaturesOfHearingText: "Eshitish buzilishini tuzatish uchun yaxshi eshitish markazlarida yosh bemorlarni boshqarish sxemasi.",
+    EarlyDiagnosis: "Erta tashxis muvaffaqiyatli reabilitatsiyaning kalitidir",
+    EarlyDiagnosisText: "Farzandingiz eshitish qobiliyatiga ega emasligiga shubha qilsangiz, vaqtni behuda sarflamaslik kerak.",
+    FailedTheAudioScreening: "Bola audio skriningdan o'tmadi, nima qilish kerak?",
+    FailedTheAudioScreeningText: "Audio skrining oddiy, tez va og'riqsiz test bo'lib, eshitish tizimida patologiya mavjudligini aniqlash imkonini beradi.",
+
+
+
+
+
+
+
+
+
+}
   };
