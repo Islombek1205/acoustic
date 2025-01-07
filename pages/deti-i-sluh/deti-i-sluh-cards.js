@@ -47,4 +47,22 @@ export const detiCards = [
         text: "FailedTheAudioScreeningText",
         link: "",
     },
+    {
+        img: "/9-150x150.jpg.webp",
+        title: "AuditoryNeuropathy",
+        text: "AuditoryNeuropathyText",
+        link: "",
+    },
+    {
+        img: "/ushnye-infekczii-u-detej-150x150.jpg.webp",
+        title: "EarInfections",
+        text: "EarInfectionsText",
+        link: "",
+    },
+    {
+        img: "/10-150x150.jpg.webp",
+        title: "Achievements",
+        text: "AchievementsText",
+        link: "",
+    },
 ]

@@ -194,9 +194,12 @@ export const translation = {
     EarlyDiagnosisText: "Если вы подозреваете, что ребенок плохо слышит, то важно не упустить время.",
     FailedTheAudioScreening: " Ребенок не прошел аудиоскрининг, что делать0",
     FailedTheAudioScreeningText: "Аудиоскрининг - простой, быстрый и безболезненный тест, который позволяет определить, есть ли патология в системе слуха.",
-
-
-
+    AuditoryNeuropathy: " Слуховая (аудиторная) нейропатия",
+    AuditoryNeuropathyText: "Какие факторы риска могут говорить о наличии патологии.",
+    EarInfections: " Ушные инфекции у детей",
+    EarInfectionsText: "Почему дети болеют отитами чаще, чем взрослые. Как понять, что у ребенка болит ухо. Какое лечение при отите. Ушные инфекции и антибиотики.",
+    Achievements: " Достижения наших маленьких пациентов",
+    AchievementsText: 'Раздел для родителей, чьим детям уже поставлен диагноз "тугоухость."',
 
 
 
@@ -400,9 +403,12 @@ export const translation = {
     EarlyDiagnosisText: "Farzandingiz eshitish qobiliyatiga ega emasligiga shubha qilsangiz, vaqtni behuda sarflamaslik kerak.",
     FailedTheAudioScreening: "Bola audio skriningdan o'tmadi, nima qilish kerak?",
     FailedTheAudioScreeningText: "Audio skrining oddiy, tez va og'riqsiz test bo'lib, eshitish tizimida patologiya mavjudligini aniqlash imkonini beradi.",
-
-
-
+    AuditoryNeuropathy: "Eshitish (sinf) nevropatiyasi",
+    AuditoryNeuropathyText: "Qanday xavf omillari patologiyaning mavjudligini ko'rsatishi mumkin.",
+    EarInfections: "Bolalarda quloq infektsiyalari",
+    EarInfectionstEXT: "Nima uchun bolalarda otit ommaviy axborot vositalari kattalarga qaraganda tez-tez uchraydi? Bolada quloq og'rig'i borligini qanday tushunish mumkin. Otit ommaviy axborot vositalarini davolash qanday? Quloq infektsiyalari va antibiotiklar.",
+    Achievements: "Kichkina bemorlarimizning yutuqlari",
+    AchievementsText: "Ushbu bo'lim bolalariga eshitish qobiliyatini yo'qotish tashxisi qo'yilgan ota-onalar uchun mo'ljallangan.",
 
 
 
