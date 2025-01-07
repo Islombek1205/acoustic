@@ -1,6 +1,6 @@
 import { useLanguage } from '@/components/languageContext'
 import React from 'react'
-import {doctors} from "./doctorsCards"
+import {doctors} from "../../data/doctorsCards"
 
 function Doctors() {
   const {t} = useLanguage()

@@ -1,6 +1,6 @@
 import { useLanguage } from '@/components/languageContext'
 import React from 'react'
-import { detiCards } from './deti-i-sluh-cards'
+import { detiCards } from '../../data/deti-i-sluh-cards'
 
 function DetiISluh() {
   const {t} = useLanguage()

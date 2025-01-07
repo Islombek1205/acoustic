@@ -1,6 +1,6 @@
 import { useLanguage } from "@/components/languageContext";
 import React from "react";
-import {leftCards, rightListItems, brands} from "./catalogCards"
+import {leftCards, rightListItems, brands} from "../../data/catalogCards"
 
 function Catalog() {
   const { t } = useLanguage();
