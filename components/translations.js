@@ -135,6 +135,8 @@ export const translation = {
     HearingAidCareProductsText: "Каталог содержит полный набор инструментов и аксессуаров, которые помогут вам регулярно ухаживать за слуховыми аппаратами и значительно продлить срок их службы.",
     EarPlugsText: "Качественные и надежные индивидуальные ушные вкладыши из силиконового и акрилового материала, выполненные индивидуально по слепку ушного канала.",
     WirelessAccessoriesText: "Беспроводные аксессуары расширяют и улучшают возможности Ваших слуховых аппаратов в ежедневных ситуациях (просмотр TV, вождение авто, разговоры в шуме и др.).",
+    Battery: "Батарейки для слуховых аппаратов",
+
 
     // Doctors page
     OurDoctors: "Наши врачи",
@@ -246,7 +248,7 @@ export const translation = {
     PowerfulAndSuperPowerfulText: "3 va 4 darajali eshitish qobiliyatini yaxshilash uchun universal echimlar",
     Invisible: "Ko'rinmas",
     InvisibleText: "Eshitish muammosiga aqlli yechim, bu sizni har qanday noqulaylik haqida unutishga majbur qiladi",
-    Rechargeable: "Перезаряжаемые",
+    Rechargeable: "Qayta zaryadlanuvchi",
     RechargeableText: "Eshitish asboblaringiz noto‘g‘ri vaqtda zaryadsizlanib qolishi haqida endi tashvishlanishingiz shart emas.",
     StartYourJourneyToBetterHearing: "Yaxshiroq eshitish uchun sayohatingizni boshlang",
     CheckYourHearing: "Eshitish qobiliyatini sinab ko'ring",
@@ -340,8 +342,7 @@ export const translation = {
     HearingAidCareProductsText: "Katalogda sizning eshitish asboblaringizga muntazam g'amxo'rlik qilish va ularning xizmat muddatini sezilarli darajada uzaytirishda yordam beradigan asboblar va aksessuarlarning to'liq to'plami mavjud.",
     EarPlugsText: "Silikon va akril materiallardan tayyorlangan yuqori sifatli va ishonchli individual quloq uchlari quloq kanali taassurotiga ko'ra individual ravishda tayyorlanadi.",
     WirelessAccessoriesText: "Simsiz aksessuarlar kundalik vaziyatlarda (televizor ko'rish, haydash, shovqinda gaplashish va h.k.) eshitish vositalarining imkoniyatlarini kengaytiradi va yaxshilaydi.",
-
-
+    Battery: "Eshitish apparati batareyalari",
 
     // Doctors page
     OurDoctors: "Bizning shifokorlar",
@@ -406,7 +407,7 @@ export const translation = {
     AuditoryNeuropathy: "Eshitish (sinf) nevropatiyasi",
     AuditoryNeuropathyText: "Qanday xavf omillari patologiyaning mavjudligini ko'rsatishi mumkin.",
     EarInfections: "Bolalarda quloq infektsiyalari",
-    EarInfectionstEXT: "Nima uchun bolalarda otit ommaviy axborot vositalari kattalarga qaraganda tez-tez uchraydi? Bolada quloq og'rig'i borligini qanday tushunish mumkin. Otit ommaviy axborot vositalarini davolash qanday? Quloq infektsiyalari va antibiotiklar.",
+    EarInfectionsText: "Nima uchun bolalarda otit ommaviy axborot vositalari kattalarga qaraganda tez-tez uchraydi? Bolada quloq og'rig'i borligini qanday tushunish mumkin. Otit ommaviy axborot vositalarini davolash qanday? Quloq infektsiyalari va antibiotiklar.",
     Achievements: "Kichkina bemorlarimizning yutuqlari",
     AchievementsText: "Ushbu bo'lim bolalariga eshitish qobiliyatini yo'qotish tashxisi qo'yilgan ota-onalar uchun mo'ljallangan.",
 

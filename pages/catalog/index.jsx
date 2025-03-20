@@ -44,7 +44,7 @@ function Catalog() {
                   <img src={item.img} alt="" />
                   <div className="text">
                     {item.titleKey ? <p>{t[item.titleKey]}</p> : null}
-                    {item.subtitle ? <span>{item.subtitle}</span> : <p>{item.text}</p>}
+                    {item.subtitle ? <span>{t[item.subtitle]}</span> : <p>{t[item.text]}</p>}
                   </div>
                 </a>
               </li>

@@ -192,12 +192,118 @@ button{
   width: 100%;
 }
 
-.slider{
+.slider-container{
   width: 80%;
   height: 400px;
-  background-color: #4a3c97;
+  background-color: #fff;
   margin: 0 auto;
 }
+
+.slider-container .slider {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-container .slides {
+  height: 400px; /* Tasvirning balandligi */
+  display: flex;
+}
+
+.slider-container .content {
+  width: 34%;
+  height: 100%;
+  padding: 60px 10px;
+  text-align: center;
+  color: white;
+  max-width: 60%;
+}
+
+.slider-container .slider img{
+  width: 66%;
+  height: 100%;
+}
+
+.slider-container .content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #4a3c97;
+}
+
+.slider-container .content p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #444444;
+}
+
+.slider-container .content .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f07e22;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+.slider-container .content .btn:hover {
+  background: #4a3c97;
+}
+
+.slider-container .prev,
+.next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #f07e22;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.slider-container .prev {
+  left: 15px;
+}
+
+.slider-container .next {
+  right: 15px;
+}
+
+.slider-container .indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 17%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.slider-container .indicators span {
+  width: 10px;
+  height: 10px;
+  background: #4a3c97;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-container .indicators span.active {
+  background: #f07e22;
+}
+
+
+
+
 
 .for-content{
   width: 80%;
@@ -1092,6 +1198,13 @@ button{
   margin-top: 10px;
   border-radius: 15px;
 }
+.centers-container .content .filial-container .carusel-location .location p{
+  margin-bottom: 10px;
+}
+
+.centers-container .content .filial-container .carusel-location .location p b{
+  color: #873d00;
+}
 
 .centers-container .content .filial-container .carusel-location .carusel{
   width: 48%;
@@ -1185,6 +1298,9 @@ button{
     font-size: 13px;
   }
 
+  .slider-container{
+    width: 85%;
+  }
   .for-content{
     width: 85%;
   }

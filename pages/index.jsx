@@ -10,6 +10,7 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'
 import FAQ from '@/components/FAQ';
 import { useLanguage } from '../components/languageContext';
+import Slider from '@/data/homeSlider';
 
 
 function Index() {
@@ -17,8 +18,8 @@ function Index() {
     
   return (
     <div home-container>
-        <div className="slider">
-            
+        <div className="slider-container">
+            <Slider/>
         </div>
         <div className="for-content">
             <h1>{t.OurServices}</h1>
